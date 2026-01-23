@@ -9,7 +9,7 @@ export function ProductProvider({children}){
   useEffect(() => { 
     const fetchProducts = async () => {
       try {
-        const res = await fetch('http://localhost:3001/products');
+        const res = await fetch('https://697405a7b5f46f8b5828ba3f.mockapi.io/api/v1/:endpoint');
         if (!res.ok) throw new Error('Failed to fetch products');
         const data = await res.json();
         console.log(data);
