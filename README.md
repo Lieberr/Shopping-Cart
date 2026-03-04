@@ -80,7 +80,7 @@ export function ProductProvider({children}){
 
 ```
 
-## Cart Context
+## 🛒 Cart Context
 
 The CartContext handles all the logic of the shopping cart. It stores the added items, controls the quantity of each product, and provides functions to add (addToCart), remove (removeFromCart), and clear the cart (clearCart). Furthermore, the cart state is persisted in localStorage, ensuring that data is not lost when refreshing the page.
 
